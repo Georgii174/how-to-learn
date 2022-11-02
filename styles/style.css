@@ -23,7 +23,12 @@ body {
   /* выше установили ограничения для секции */
 }
 
-.logo_place_header {
+.header__link {
+  text-decoration: none;
+  color: #2f80ed;
+}
+
+.logo__place_header {
   position: absolute;
   top: 30px;
   left: 64px;
@@ -31,8 +36,7 @@ body {
   height: 32px;
 }
 
-
-.header_title {
+.header__title {
   display: flex;
   width: 730px;
   padding-left: 64px;
@@ -43,7 +47,7 @@ body {
   z-index: 1;
 }
 
-.header_subtitle {
+.header__subtitle {
   position: absolute;
   left: 64px;
   bottom: 30px;
@@ -54,7 +58,7 @@ body {
   z-index: 1;
 }
 
-.header_main-illustration {
+.header__main-illustration {
   position: absolute;
   right: 0;
   bottom: 0;
@@ -66,22 +70,25 @@ body {
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-.header_square-pic {
+.header__square-pic {
   position: absolute;
-    top: 64px;
-    right: 0;
-    background-color: #2f80ed;
-    z-index: 0;
-    width: 568px;
-    height: 568px;
+  top: 64px;
+  right: 0;
+  background-color: #2f80ed;
+  z-index: 0;
+  width: 568px;
+  height: 568px;
+}
+
+.description{
+  height: 350px;
+
 }
 
 .two-columns {
   display: flex;
   justify-content: space-between;
   margin: 100px 110px;
-
-
 }
 
 .two-columns_brief {
@@ -91,13 +98,11 @@ body {
   font-weight: normal;
   color: #2f80ed;
   margin-top: 0;
-
 }
 
 .two-columns_main-text {
   max-width: 80%;
   min-height: 784px;
-
 }
 
 .two-columns_paragraph {
@@ -106,7 +111,6 @@ body {
   font-weight: normal;
   row-gap: 30px;
   margin-top: 0;
-
 }
 
 .span-accent {
@@ -115,10 +119,183 @@ body {
   font-weight: 600;
 }
 
+.section-title {
+  text-align: center;
+  padding-top: 100px;
+  margin-bottom: 0px;
+  font-size: 60px;
+  line-height: 1.15;
+  font-weight: 600;
+
+}
+
+.section-subtitle {
+  text-align: center;
+  margin: 0;
+  padding-top: 20px;
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: normal;
+}
+
+.table {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1100px;
+  margin: 0 auto 100px;
+  padding: 60px 0 0;
+  justify-content: space-between;
+}
+
+.table__cell {
+  width: 250px;
+  margin-right: 0;
+  margin-top: 60px;
+}
+
+
+.table__heading {
+  padding-bottom: 20px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-size: 24px;
+  line-height: 1.15;
+  font-weight: 600;
+
+}
+.table__text {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: normal;
+
+}
+
+.feynman {
+  display: flex;
+  position: relative;
+  background-color: #f2f2f2;
+  height: 890px;
+  width: auto;
+}
+
+.feynman__title {
+  margin-top: 0px;
+  padding-top: 100px;
+  padding-left: 477px;
+  text-align: center;
+  display: flex;
+  width: 648px;
+  font-size: 120px;
+  line-height: 1.15;
+  font-weight: 600;
+  z-index: 1;
+}
+
+.feynman__subtitle {
+  padding-top: 445px;
+  padding-left: 621px;
+  position: absolute;
+  top: 0;
+  right: 0px;
+  left: 0px;
+  margin-top: 0px;
+  bottom: 30px;
+  width: 388px;
+  font-size: 36px;
+  line-height: 51px;
+  font-weight: normal;
+  z-index: 1;
+}
+.feynman__link {
+  position: absolute;
+    font-size: 36px;
+    line-height: 51px;
+    font-weight: normal;
+    text-decoration: none;
+    color: #2f80ed;
+    padding-top: 445px;
+    right: 0;
+    padding-right: 48px;
+}
+
+.feynman__main-illustration {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 867px;
+  height: 637px;
+  z-index: 0;
+}
+
+.kaufman {
+  position: relative;
+  background-color: #1f1f1f;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.section-title_theme_dark {
+  margin-top: 0px;
+  color: white;
+  text-align: center;
+  padding-top: 90px;
+  margin-bottom: 0px;
+  font-size: 60px;
+  line-height: 1.15;
+  font-weight: 600;
+
+}
+
+.section-subtitle_theme_dark {
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding-top: 20px;
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: normal;
+}
+
+.table__theme_dark {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1100px;
+  margin: 0 auto 100px;
+  padding: 80px 0 0;
+  justify-content: space-between;
+}
+
+.table__heading_theme_dark {
+  padding-bottom: 20px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-size: 24px;
+  line-height: 1.15;
+  font-weight: 600;
+
+}
+.table__text_theme_dark {
+  margin-top: 0px;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: normal;
+
+}
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
   color: white;
   margin-right: 0;
   margin-top: 80px;
+}
+
+.kaufman__triangle{
+  position: absolute;
+  width: 877px;
+  height: 877px;
+  right: -210px;
+  top: 0;
+  z-index: -1;
 }
