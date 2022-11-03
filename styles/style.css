@@ -82,7 +82,6 @@ body {
 
 .description{
   height: 350px;
-
 }
 
 .two-columns {
@@ -126,7 +125,6 @@ body {
   font-size: 60px;
   line-height: 1.15;
   font-weight: 600;
-
 }
 
 .section-subtitle {
@@ -169,7 +167,6 @@ body {
   font-size: 18px;
   line-height: 1.2;
   font-weight: normal;
-
 }
 
 .feynman {
@@ -245,7 +242,6 @@ body {
   font-size: 60px;
   line-height: 1.15;
   font-weight: 600;
-
 }
 
 .section-subtitle_theme_dark {
@@ -274,14 +270,12 @@ body {
   font-size: 24px;
   line-height: 1.15;
   font-weight: 600;
-
 }
 .table__text_theme_dark {
   margin-top: 0px;
   font-size: 18px;
   line-height: 1.2;
   font-weight: normal;
-
 }
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
@@ -298,4 +292,59 @@ body {
   right: -210px;
   top: 0;
   z-index: -1;
+}
+
+.footer {
+  background-color: #1f1f1f;
+  min-height: 450px;
+}
+.footer__columns {
+  display: flex;
+  justify-content: space-between;
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 60px 0 40px 0;
+  height: 350px;
+}
+
+.footer__column_content_copyright {
+  flex-basis: 711px;
+}
+
+.logo__place_footer {
+  width: 228px;
+  height: 32px;
+}
+
+.footer__author {
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: normal;
+  color: white;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  margin-bottom: 0px;
+  margin-top: 258px;
+}
+
+.footer__column-heading {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 600;
+  color: white;
+}
+
+.column-link {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: normal;
+  color: white;
+  text-decoration: none;
+}
+
+.column-links {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0px;
+  margin-top: 20px;
 }
